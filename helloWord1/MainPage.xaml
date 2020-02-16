@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="helloWord1.MainPage">
-    <StackLayout>
+    
+    <StackLayout VerticalOptions="Center"
+                 Margin="20, 20, 20, 20">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms! this is modify!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        <Button Text="하하 버튼추가함" />
-        <Button Text="하하 버튼추가함" />
-        <Button Text="하하 버튼추가함" />
-        <Button Text="하하 버튼추가함" />
+        
+        <Entry Placeholder="Email address"
+               x:Name="emailEntry"
+               Text="fffff"/>
+        
+        <Entry Placeholder="Password"
+               x:Name="passwordEntry"
+               IsPassword="True"/>
 
+        <Button x:Name="LoginButton" 
+                Margin="0, 50, 0, 0"
+                Text="Log In"
+                Clicked="LoginButton_Clicked"
+                FontAttributes="Bold"
+                FontSize="Large"/>
     </StackLayout>
 </ContentPage>
