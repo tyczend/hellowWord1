@@ -1934,24 +1934,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ori\\.nuget\\packages\\": {},
+    "C:\\Users\\jae.h.kim\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\hellowWord1\\helloWord1.Android\\helloWord1.Android.csproj",
+      "projectUniqueName": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1.Android\\helloWord1.Android.csproj",
       "projectName": "helloWord1.Android",
-      "projectPath": "E:\\Project\\hellowWord1\\helloWord1.Android\\helloWord1.Android.csproj",
-      "packagesPath": "C:\\Users\\Ori\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\hellowWord1\\helloWord1.Android\\obj\\",
+      "projectPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1.Android\\helloWord1.Android.csproj",
+      "packagesPath": "C:\\Users\\jae.h.kim\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jae.h.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj": {
-              "projectPath": "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj"
+            "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj": {
+              "projectPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj"
             }
           }
         }

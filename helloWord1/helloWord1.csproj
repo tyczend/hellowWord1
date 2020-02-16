@@ -16,11 +16,6 @@
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="HistoryPage.xaml">

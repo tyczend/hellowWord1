@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj": {}
+    "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj": {}
   },
   "projects": {
-    "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj": {
+    "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj",
+        "projectUniqueName": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj",
         "projectName": "helloWord1",
-        "projectPath": "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj",
-        "packagesPath": "C:\\Users\\Ori\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\hellowWord1\\helloWord1\\obj\\",
+        "projectPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj",
+        "packagesPath": "C:\\Users\\jae.h.kim\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jae.h.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
