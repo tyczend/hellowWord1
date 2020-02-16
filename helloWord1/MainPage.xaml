@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="helloWord1.MainPage">
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms! this is modify! 이것은 웹수정!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label Text="Welcome to Xamarin.Forms! this is modify!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Button Text="하하 버튼추가함" />
+        <Button Text="하하 버튼추가함" />
+        <Button Text="하하 버튼추가함" />
+        <Button Text="하하 버튼추가함" />
 
     </StackLayout>
 </ContentPage>
