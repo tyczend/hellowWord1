@@ -1018,24 +1018,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ori\\.nuget\\packages\\": {},
+    "C:\\Users\\jae.h.kim\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\hellowWord1\\helloWord1.iOS\\helloWord1.iOS.csproj",
+      "projectUniqueName": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1.iOS\\helloWord1.iOS.csproj",
       "projectName": "helloWord1.iOS",
-      "projectPath": "E:\\Project\\hellowWord1\\helloWord1.iOS\\helloWord1.iOS.csproj",
-      "packagesPath": "C:\\Users\\Ori\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\hellowWord1\\helloWord1.iOS\\obj\\",
+      "projectPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1.iOS\\helloWord1.iOS.csproj",
+      "packagesPath": "C:\\Users\\jae.h.kim\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jae.h.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1049,8 +1049,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj": {
-              "projectPath": "E:\\Project\\hellowWord1\\helloWord1\\helloWord1.csproj"
+            "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj": {
+              "projectPath": "D:\\Workspace\\MyProject\\hellowWord1\\helloWord1\\helloWord1.csproj"
             }
           }
         }
