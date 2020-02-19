@@ -5,11 +5,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="helloWord1.NewTravelPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save"
+                     Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="NewTrave Page!!!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="expretienceEntry" 
+                   Placeholder="Write your expretience"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

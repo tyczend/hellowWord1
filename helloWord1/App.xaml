@@ -4,8 +4,7 @@
         
         <ResourceDictionary>
             <Color x:Key="blueColor">#1E90EF</Color>
-            <Color x:Key="whiteColor">#FFFFFF</Color>
-            
+            <Color x:Key="whiteColor">#434440</Color>
             <Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource blueColor}" />
                 <Setter Property="TextColor"       Value="{StaticResource whiteColor}" />

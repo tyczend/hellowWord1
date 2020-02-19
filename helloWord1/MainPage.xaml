@@ -7,7 +7,7 @@
         
         <Entry Placeholder="Email address"
                x:Name="emailEntry"
-               Text="fffff"/>
+               Text=""/>
         
         <Entry Placeholder="Password"
                x:Name="passwordEntry"

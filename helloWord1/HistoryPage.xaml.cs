@@ -1,4 +1,6 @@
-﻿using System;
+﻿using helloWord1.Model;
+using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,19 @@ namespace helloWord1
         public HistoryPage()
         {
             InitializeComponent();
+        }
+
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocaltion))
+            {
+                conn.CreateTable<Post>();
+                var posts = conn.Table<Post>().ToList();
+                postListView.ItemsSource = posts;
+            }
         }
     }
 }
