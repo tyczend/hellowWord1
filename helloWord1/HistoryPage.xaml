@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="helloWord1.HistoryPage">
 
-    <ListView x:Name="postListView">
+    <ListView x:Name="postListView"
+              ItemSelected="postListView_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Experience}"/>

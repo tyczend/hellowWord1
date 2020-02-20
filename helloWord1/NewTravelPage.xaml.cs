@@ -26,20 +26,20 @@ namespace helloWord1
                 Experience = expretienceEntry.Text
             };
 
-            SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocaltion);
-            conn.CreateTable<Post>();
-            int rows = conn.Insert(post);
-            conn.Close();
-
-            if( rows > 0 )
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocaltion)) 
             {
-                DisplayAlert("Success", "Experience succesfully inserter", "Ok");
-            }
-            else
-            {
-                DisplayAlert("Failure", "Experience failed to be inserted", "Ok");
-            }
+                conn.CreateTable<Post>();
+                int rows = conn.Insert(post);
 
+                if (rows > 0)
+                {
+                    DisplayAlert("Success", "Experience succesfully inserter", "Ok");
+                }
+                else
+                {
+                    DisplayAlert("Failure", "Experience failed to be inserted", "Ok");
+                }
+            }
         }
     }
 }
